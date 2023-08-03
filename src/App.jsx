@@ -10,11 +10,11 @@ function App() {
         <section className="header-wrapper w-full h-full">
           <HeaderSection />
         </section>
-        <div className="bg-Gadient w-full h-[200px]"></div>
+        <div className="bg-Gadient w-full h-[180px]"></div>
         <section className="body-wrapper w-full h-full">
           <BodySection />
         </section>
-        <div className="bg-Gadient-revert w-full h-[200px]"></div>
+        <div className="bg-Gadient-revert w-full h-[180px]"></div>
         <section className="footer-wrapper w-full h-full">
           <FooterSection />
         </section>
