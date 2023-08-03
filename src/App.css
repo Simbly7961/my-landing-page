@@ -2,3 +2,21 @@
   margin: 0;
   padding: 0;
 }
+
+.bg-Gadient {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    354deg,
+    rgba(255, 255, 255, 1) 50%,
+    rgba(229, 229, 229, 1) 50%
+  );
+}
+
+.bg-Gadient-revert {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    177deg,
+    rgba(255, 255, 255, 1) 50%,
+    rgba(229, 229, 229, 1) 50%
+  );
+}

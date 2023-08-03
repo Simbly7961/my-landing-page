@@ -6,14 +6,16 @@ import HeaderSection from "./components/HeaderSection";
 function App() {
   return (
     <>
-      <div className="App-wrapper w-[1440px] flex flex-col justify-center items-center ">
-        <section className="header-wrapper">
+      <div className="App-wrapper w-full h-full flex flex-col justify-center items-center ">
+        <section className="header-wrapper w-full h-full">
           <HeaderSection />
         </section>
-        <section className="body-wrapper">
+        <div className="bg-Gadient w-full h-[200px]"></div>
+        <section className="body-wrapper w-full h-full">
           <BodySection />
         </section>
-        <section className="footer-wrapper">
+        <div className="bg-Gadient-revert w-full h-[200px]"></div>
+        <section className="footer-wrapper w-full h-full">
           <FooterSection />
         </section>
       </div>

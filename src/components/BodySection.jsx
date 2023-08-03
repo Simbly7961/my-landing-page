@@ -6,8 +6,8 @@ import workExp from "../data/workExp";
 const BodySection = () => {
   return (
     <>
-      <div className="body-wrapper flex flex-row border border-red-500 w-[1440px] p-10 pl-[150px]">
-        <section className="left flex-2 mr-10">
+      <div className="body-wrapper flex justify-center gap-20 w-full h-full p-10 px-20 bg-white">
+        <div className="flex-2 font-body">
           <div className="skill-set mb-[100px]">
             <span className="text-secondary text-[18px] font-bold">
               Skill Set
@@ -55,11 +55,11 @@ const BodySection = () => {
               </li>
             </ul>
           </div>
-        </section>
-        <section className="right flex-1">
+        </div>
+        <div className="flex-1 font-body">
           <div className="about-me">
-            <span className="text-[36px] font-black">About Me</span>
-            <p className="text-[20px]">
+            <span className="text-[36px] font-black font-head">About Me</span>
+            <p className="text-[20px] my-3">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Voluptatem voluptatum, quibusdam optio vero ex veniam ipsum
               perspiciatis fugiat odit non quas eveniet iste sed, voluptate
@@ -67,8 +67,8 @@ const BodySection = () => {
             </p>
           </div>
           <div className="experience">
-            <span className="text-[36px] font-black">Experience</span>
-            <ul>
+            <span className="text-[36px] font-black font-head">Experience</span>
+            <ul className="my-8">
               {workExp.map((work) => {
                 return (
                   <>
@@ -87,7 +87,7 @@ const BodySection = () => {
             </ul>
           </div>
           <div className="education">
-            <span className="text-[36px] font-black">Education</span>
+            <span className="text-[36px] font-black font-head">Education</span>
             <ul>
               {education.map((edu) => {
                 return (
@@ -110,7 +110,7 @@ const BodySection = () => {
               })}
             </ul>
           </div>
-        </section>
+        </div>
       </div>
     </>
   );
