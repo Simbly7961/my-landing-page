@@ -60,10 +60,13 @@ const BodySection = () => {
           <div className="about-me">
             <span className="text-[36px] font-black font-head">About Me</span>
             <p className="text-[20px] my-3">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Voluptatem voluptatum, quibusdam optio vero ex veniam ipsum
-              perspiciatis fugiat odit non quas eveniet iste sed, voluptate
-              nulla accusantium quod dolorem corporis?
+              As a Sound-Engineer freelancer seeking employment in web
+              development, I am eager to utilize my skills and passion to become
+              a proficient developer. With a positive attitude, unwavering
+              motivation, and a hunger for learning, I am confident in my
+              ability to create innovative and engaging web solutions, bringing
+              a unique perspective and a dedication to excellence to every
+              project I undertake.
             </p>
           </div>
           <div className="experience">
