@@ -6,7 +6,7 @@ import HeaderSection from "./components/HeaderSection";
 function App() {
   return (
     <>
-      <div className="App-wrapper w-[1440px] flex flex-col justify-center items-center">
+      <div className="App-wrapper w-[1440px] flex flex-col justify-center items-center ">
         <section className="header-wrapper">
           <HeaderSection />
         </section>
